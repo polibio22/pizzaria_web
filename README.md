@@ -4,4 +4,3 @@ colaboradores:
 1.Polibio Cassio Alves da Costa
 2.Philipe Gabriel
 3.Kauã Lucas
-4.Anderson
