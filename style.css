@@ -1,0 +1,92 @@
+/* includes/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #AA0000;
+    /* Vermelho Pizzaria */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.cardapio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pizza-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preco {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #AA0000;
+}
+
+/* Estilos de Tabela para Carrinho e Admin */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #AA0000;
+    color: white;
+}
+
+/* Estilos para Status no Admin */
+.status-novo {
+    background-color: #ffffa0;
+}
+
+.status-em-preparacao {
+    background-color: #ffda85;
+}
+
+.status-a-caminho {
+    background-color: #85ff85;
+}
+
+.status-entregue {
+    background-color: #a0a0ff;
+}
+
+.status-cancelado {
+    background-color: #ff9090;
+}
