@@ -1,0 +1,5 @@
+INSERT INTO pizzas (nome, descricao, preco,) VALUES
+('Calabresa', 'Calabresa com cebola e queijo', 25.00,),
+('Frango Catupiry', 'Frango desfiado com catupiry', 32.00,),
+('Margherita', 'Manjericão fresco, queijo e tomate', 29.00,),
+('Portuguesa', 'Presunto, queijo, ovo e cebola', 30.00,);
